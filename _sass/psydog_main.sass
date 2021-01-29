@@ -1,0 +1,72 @@
+$max-wrapper-width: 900px
+
+body
+  font-family: 'Sue Ellen Francisco', cursive
+  background-color: #ffffff
+.page-wrapper
+  position: relative
+  min-height: 100vh
+  background: #3498db
+.wrapper
+  display: block
+  padding: 0
+  margin: 0
+  &:nth-child(1)
+    background-color: #ffffff
+    color: #3498db
+  &:nth-child(2)
+    background-color: #3498db
+    color: #ffffff
+    padding-top: 15px
+    padding-bottom: calc(10.5em + 15px)
+  &:nth-child(3)
+    background-color: #000000
+    color: #ffffff
+    position: absolute
+    width: 100%
+    bottom: 0
+    height: 10.5em
+  .content
+    max-width: -webkit-calc(900px - (30px * 2))
+    max-width: calc(900px - (30px * 2))
+    margin-right: auto
+    margin-left: auto
+    padding-right: 30px
+    padding-left: 30px
+    overflow: hidden
+    .post
+      background: #3fa4e8
+      padding: 10px
+      box-sizing: border-box
+      position: relative
+      box-shadow: 0px -3px 5px 2px #00000073
+      .post-header
+        height: auto
+        white-space: normal
+        color: #fff
+        background: #3fa4e8
+    .sticky
+      background-color: #ffffff
+      border-bottom: none
+      a
+        margin-right: 10px
+        &:hover
+          text-decoration: underline
+      .logo
+        color: #3498db
+        font-family: 'Sue Ellen Francisco', cursive
+        font-size: 32px
+      .magento
+        color: #00aa00
+        font-family: 'Philosopher', sans-serif
+        font-size: 20px
+        font-weight: 600
+      .about
+        color: #00aa00
+        font-family: 'Philosopher', sans-serif
+        font-size: 20px
+        font-weight: 600
+    .footer
+      background-color: #000000
+      border-top: none
+      color: #222222

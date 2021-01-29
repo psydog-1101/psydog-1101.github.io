@@ -1,0 +1,16 @@
+- name: Home
+  id: home
+  url: /
+  hasChild: 0
+  parent: base
+- name: Bucket
+  id: bucket
+  url: /bucket
+  hasChild: 1
+  parent: base
+- name: Magento2
+  id: magento2
+  url: /magento2
+  hasChild: 0
+  parent: bucket
+

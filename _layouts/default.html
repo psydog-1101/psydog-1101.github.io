@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!--
+    Psydog custom theme
+    Copyright 2020-2021 nhatlich808@gmail.com
+    https://github.com/psydog-1101
+-->
+{% include head.html %}
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
+<body class="layout-{{ page.layout }}">
+    <div class="page-wrapper">
+        {% include nav.html %}
+        {% include content.html %}
+        {% include foot.html %}
+    </div>
+</body>
+</html>
